@@ -6,12 +6,12 @@ cliで動く英単語辞典です。
 
 ubuntuをお使いの方:
 ```
-curl -O https://raw.githubusercontent.com/asano12300-droid/word_dict/main/storage/ubuntu/1.0.5/dict_1.0.5_amd64.deb
+curl -O https://raw.githubusercontent.com/asano12300-droid/word_dict/main/storage/ubuntu/1.0.6/dict_1.0.6_amd64.deb
 ```
 
 windowsをお使いの方:
 ```
-curl -O https://raw.githubusercontent.com/asano12300-droid/word_dict/main/storage/windows/1.0.5/dict_1.0.5_windows.zip>
+curl -O https://raw.githubusercontent.com/asano12300-droid/word_dict/main/storage/windows/1.0.6/dict_1.0.6_windows.zip>
 ```
 
 ## version
@@ -19,5 +19,5 @@ curl -O https://raw.githubusercontent.com/asano12300-droid/word_dict/main/storag
 |-|-|-|
 |1.0.3|50|-|
 |1.0.4|58|-|
-|1.0.5|175|最新版|
-|1.0.6|未定|予定|
+|1.0.5|175|-|
+|1.0.6|200|最新版|
