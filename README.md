@@ -13,7 +13,7 @@ curl -O https://raw.githubusercontent.com/asano12300-droid/word_dict/main/storag
 
 windowsをお使いの方
 ```
-
+curl -O https://raw.githubusercontent.com/asano12300-droid/word_dict/main/storage/windows/{version}/dict_{version}_windows.zip>
 ```
 
 ## version
