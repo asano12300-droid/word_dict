@@ -2,18 +2,16 @@
 cliで動く英単語辞典です。
 
 ## 使い方
-1.インストール方法
+1.インストール方法(最新版)
 
 ubuntuをお使いの方:
-
-{version}は最新版など使えるバージョンを入れてください
 ```
-curl -O https://raw.githubusercontent.com/asano12300-droid/word_dict/main/storage/ubuntu/{version}/dict_{version}_amd64.deb
+curl -O https://raw.githubusercontent.com/asano12300-droid/word_dict/main/storage/ubuntu/1.0.5/dict_1.0.5_amd64.deb
 ```
 
-windowsをお使いの方
+windowsをお使いの方:
 ```
-curl -O https://raw.githubusercontent.com/asano12300-droid/word_dict/main/storage/windows/{version}/dict_{version}_windows.zip>
+curl -O https://raw.githubusercontent.com/asano12300-droid/word_dict/main/storage/windows/1.0.5/dict_1.0.5_windows.zip>
 ```
 
 ## version
