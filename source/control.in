@@ -1,0 +1,8 @@
+Package: dict
+Version: 1.0.5
+Section: utils
+Priority: optional
+Architecture: amd64
+Maintainer: name <name@mail.com>
+Description: Command Line English Dictionary
+ A simple CLI dictionary program written in C++ using JSON for storage.
