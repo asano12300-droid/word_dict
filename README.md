@@ -21,3 +21,4 @@ curl -O https://raw.githubusercontent.com/asano12300-droid/word_dict/main/storag
 |1.0.4|58|-|
 |1.0.5|175|-|
 |1.0.6|200|最新版|
+|1.0.7|未定|予定|

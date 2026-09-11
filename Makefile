@@ -36,6 +36,8 @@ deb: $(PKG_NAME) control.in dictionary.json
 	cp dictionary.json $(SHARE_DIR)/dictionary.json
 	cp control.in $(DEBIAN_DIR)/control
 	dpkg-deb --build $(BUILD_DIR) $(DEB_FILE)
+	mkdir storage/ubuntu/{VERSION}
+	mv {DEB_FILE} storage/ubuntu/{VERSION}/
 	@echo "--- Linux向け作成完了: $(DEB_FILE) ---"
 
 # 4. Windows用配布パッケージ (.zip) の作成
