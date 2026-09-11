@@ -3,7 +3,7 @@ import json
 
 class Word:
     def __init__(self):
-        self.file_path = os.path.expanduser('/home/asano12300-droid/workspaces/word_dict/dictionary.json')
+        self.file_path = os.path.expanduser('/workspaces/word_dict/dictionary.json')
 
     def op(self):
         with open(self.file_path, 'r', encoding='utf-8') as f:
@@ -41,6 +41,7 @@ if __name__ == '__main__':
             except KeyboardInterrupt:
                 break
     elif select == "2":
-        word.amount()
+        amount = word.amount()
+        print(f"単語数: {amount}")
     elif select == "3":
         pass
