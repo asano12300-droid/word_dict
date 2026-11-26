@@ -1,8 +1,0 @@
-Package: dict
-Version: 1.0.7
-Section: utils
-Priority: optional
-Architecture: amd64
-Maintainer: aryu44 <asano12300@gmail.com>
-Description: Command Line English Dictionary
- A simple CLI dictionary program written in C++ using JSON for storage.
