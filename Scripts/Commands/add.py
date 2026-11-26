@@ -4,7 +4,8 @@ import os
 import json
 import datetime
 
-directory = os.path.expanduser("/home/aryu44/words/Datas") 
+name = os.getlongin()
+directory = os.path.expanduser(f"/home/{name}/words/Datas") 
 
 def create_words(grade: str):
     os.makedirs(directory, exist_ok=True)

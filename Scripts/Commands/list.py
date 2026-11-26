@@ -3,7 +3,8 @@
 import os
 import json
 
-directory = os.path.expanduser("/home/aryu44/words/Datas")
+name = os.getlongin()
+directory = os.path.expanduser(f"/home/{name}/words/Datas")
 
 def list(grade):
     file_url = f"{directory}/{grade}.json"

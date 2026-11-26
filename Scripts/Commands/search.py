@@ -4,7 +4,8 @@ import os
 import json
 
 def search(grade: str, word: str):
-    file_url = f"/home/aryu44/words/Datas/{grade}.json"
+    name = os.getlogin()
+    file_url = f"/home/{name}/words/Datas/{grade}.json"
     if os.path.exists(file_url):
         with open(file_url, "r", encoding="utf-8") as f:
             data = json.load(f)
