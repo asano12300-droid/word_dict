@@ -5,7 +5,6 @@ import json
 import datetime
 from pathlib import Path
 
-name = os.getlongin()
 directory = Path(__file__).resolve().parents[2] / "Datas" 
 
 def create_words(grade: str):
