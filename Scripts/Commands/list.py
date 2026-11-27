@@ -2,8 +2,9 @@
 
 import os
 import json
+from pathlib import Path
 
-directory = os.path.expanduser("/home/aryu44/words/Datas")
+directory = Path(__file__).resolve().parents[2] / "Datas"
 
 def list(grade):
     file_url = f"{directory}/{grade}.json"

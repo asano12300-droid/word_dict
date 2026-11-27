@@ -2,9 +2,12 @@
 
 import os
 import json
+from pathlib import Path
+
+directory = Path(__file__).resolve().parents[2] / "Datas"
 
 def search(grade: str, word: str):
-    file_url = f"/home/aryu44/words/Datas/{grade}.json"
+    file_url = f"{dictionary}/{grade}.json"
     if os.path.exists(file_url):
         with open(file_url, "r", encoding="utf-8") as f:
             data = json.load(f)
