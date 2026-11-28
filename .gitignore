@@ -1,0 +1,4 @@
+build/
+dist/
+main.spec
+words_dict-release.zip
