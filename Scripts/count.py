@@ -2,7 +2,7 @@ import os
 import json
 from pathlib import Path
 
-directory = Path(__file__).resolve().parents[2] / "words/Datas"
+directory = Path(__file__).resolve().parents[1] / "Datas"
 
 def count(grade: str):
     file = os.path.expanduser(f"{directory}/{grade}.json")

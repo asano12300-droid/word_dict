@@ -6,7 +6,7 @@ import datetime
 from pathlib import Path
 from . import grades
 
-directory = Path(__file__).resolve().parents[2] / "words/Datas"
+directory = Path(__file__).resolve().parents[2] / "Datas"
 
 def create_words(grade: str):
     os.makedirs(directory, exist_ok=True)
